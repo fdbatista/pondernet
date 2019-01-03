@@ -1,0 +1,4 @@
+Options -Indexes
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^.*/imagenes/.*$
+RewriteRule .*$ /site/error
